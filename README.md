@@ -4,10 +4,10 @@
  
  
  ### Tech/Frameworks
- ⋅⋅* Streamlit
- ⋅⋅* OpenCV
- ⋅⋅* MTCNN
- ⋅⋅* Docker Containers
- ⋅⋅* Heroku
+   * Streamlit
+   * OpenCV
+   * MTCNN
+   * Docker Containers
+   * Heroku
  
  
