@@ -6,10 +6,6 @@ from numpy.lib.stride_tricks import sliding_window_view
 from scipy import ndimage as ndi
 #https://scikit-image.org/docs/stable/auto_examples/features_detection/plot_gabor.html
 
-Sex = {'1' : 'Female', '0': 'Male'}
-Race = {'0': 'White', '1': 'Black', '2': 'Asian', '3':'Indian', '4' : 'Others'}
-
-
 def power(image, kernel):
     # Normalize images for better comparison.
     image = (image - image.mean()) / image.std()
