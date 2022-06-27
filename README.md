@@ -13,5 +13,5 @@
  ## How does it work
  1. Visit the [Link](https://face-pd.herokuapp.com)
  2. Select activity (Detection or Prediction)
- 3. Upload a face-image or use your camera to take a snapshot of yourself
+ 3. Upload a face-image or use your camera to take a snapshot of your face
  4. Select features to detect or predict
