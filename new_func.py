@@ -7,10 +7,6 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-# Sex = {'1' : 'Female', '0': 'Male'}
-# Race = {'0': 'White', '1': 'Black', '2': 'Asian', '3':'Indian', '4' : 'Others'}
-
-
 def process_img(name, img_size):
     img = cv2.cvtColor(cv2.imread(name), cv2.COLOR_BGR2RGB)
     face = MTCNN().detect_faces(img)       # Assuming only one face is given
